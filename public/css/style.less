@@ -1,9 +1,9 @@
-@gradientLeft:black;
+@gradientLeft:#D6D6D6;
 @gradientRight:white;
 .gradient-bg {
     width:100%;
-    height:100%;
-    position: fixed;
+    min-height:100%;
+ //   position: fixed;
 
    background-color: @gradientLeft;  
    background-image: -webkit-linear-gradient(right, @gradientLeft, @gradientRight); 
@@ -14,4 +14,26 @@
 
 .page {
     background-color: white;
+}
+.banner#mainbanner {
+    background-image: url(/img/mainbanner.jpg);
+}
+.banner {
+    
+    height: 230px;
+    position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.container {
+    width:750px;
+    margin:auto;
+    //position:auto;
+}
+html {
+    font-family: "Open Sans",sans-serif;
+    body {
+        height:100%;
+        margin:0;
+    }
 }
