@@ -1,0 +1,17 @@
+@gradientLeft:black;
+@gradientRight:white;
+.gradient-bg {
+    width:100%;
+    height:100%;
+    position: fixed;
+
+   background-color: @gradientLeft;  
+   background-image: -webkit-linear-gradient(right, @gradientLeft, @gradientRight); 
+   background-image:    -moz-linear-gradient(right, @gradientLeft, @gradientRight);
+   background-image:     -ms-linear-gradient(right, @gradientLeft, @gradientRight);
+   background-image:      -o-linear-gradient(right, @gradientLeft, @gradientRight);
+}
+
+.page {
+    background-color: white;
+}
