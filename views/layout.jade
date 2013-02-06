@@ -8,13 +8,15 @@ html
         //- font
         link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600', rel='stylesheet)
 
-        if env == "prod"
+        - if (typeof(env) === 'undefined' || (typeof(env) !== 'undefined' && env == "prod")) {
             link(rel='stylesheet', href='/css/main.css')
-        else
+        - } else {
             link(rel='stylesheet/less', href='/css/main.less')
+        - }
         
-        if env != "prod"
+        - if (typeof(env) !== 'undefined' && env != "prod") {
             script(src='/js/libs/less.js')
+        - }
 
         //- fb meta tags
         //- meta(property="og:image", content="")

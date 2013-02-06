@@ -27,6 +27,9 @@ app.get('/', function(req, res) {
         env: process.env.NODE_ENV === "production" ? "prod" : "dev"
     });
 });
+app.get("/index", function(req, res) {
+    res.redirect("/");
+});
 app.get('/rules', function(req, res) {
     return res.render("rules", {
         env: process.env.NODE_ENV === "production" ? "prod" : "dev"
