@@ -20,10 +20,6 @@ all: clean $(CSS) $(HTML)
 	$(JADEC) < $< --path $< > static/$(@F)
 	sed -i 's|href="/\([^/"]*\)"|href="/\1.html"|g' static/$(@F)
 
-serve:
-	cd static
-	serve -D --port 8081
-
 .PHONY: clean
 
 clean:
