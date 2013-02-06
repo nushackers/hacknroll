@@ -27,6 +27,11 @@ app.get('/', function(req, res) {
         env: process.env.NODE_ENV === "production" ? "prod" : "dev"
     });
 });
+app.get('/rules', function(req, res) {
+    return res.render("rules", {
+        env: process.env.NODE_ENV === "production" ? "prod" : "dev"
+    });
+});
 
 http.createServer(app).listen(app.get('port'), function(){
     console.log("Express server listening on port " + app.get('port'));
