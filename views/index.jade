@@ -11,7 +11,8 @@ block content
         p hack&amp;roll is a 24 hour hackathon organised by <a href='http://nushackers.org'>NUS Hackers</a>.
 
         //- main call to action
-        a#calltoaction Register Now
+        h3
+            a#calltoaction(href="#") Register Now
 
         section
             h2 Details
@@ -37,7 +38,12 @@ block content
 
         section
             h2 Sponsors
-            p Details to come.
+            #logos
+                img(src='/img/palantir.png', alt='Palantir Logo')
+                img(src='/img/paypal.png', alt='Paypal Logo')
+                img(src='/img/soc.jpg', alt='NUS SoC Logo')
+                img(src='/img/github.png', alt='Github Logo')
+                    
 
         footer
             p.
