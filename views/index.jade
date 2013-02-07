@@ -1,57 +1,42 @@
 extends layout
 
 block content
-    #container.container
-        header
-            h1
-                a(href="/index")
-                    img(alt='hack&roll by NUS Hackers', src="/img/hacknrolllogo.png")
-
-        img#banner(src='/img/banner.png')
-        p.maintext 24th - 25th Feb &middot; 24h hackathon
-        p(style='text-align:center') Hack&amp;Roll is a 24 hour hackathon<br/>organised by <a href='http://nushackers.org'>NUS Hackers</a>.
-
-        //- main call to action
-        h3
-            a#calltoaction(href="https://docs.google.com/a/linuxnus.org/spreadsheet/viewform?formkey=dGtWM296RXBHZFlIbkJEZkdHNFN1amc6MQ#gid=0") Register Now
-
-        section
+    section.span11.offsetp
             h2 Details
-            .row
-                span.label When:&nbsp;
-                span 24th - 25 Feb 2013, 1pm - 1pm
+            dl.dl-horizontal
+                dt When:&nbsp;
+                dd 24th - 25 Feb 2013, 1pm - 2pm
             
-            .row
-                span.label Who:&nbsp;
-                span All students, in teams of 1 to 4
+                dt Who:&nbsp;
+                dd All students, in teams of 1 to 4
 
-            .row
-                span.label What:&nbsp;
-                span A 24h hackathon
+                dt What:&nbsp;
+                dd A 24h hackathon
 
-            .row
-                span.label Where:&nbsp;
-                span.addr.
+                dt Where:&nbsp;
+                dd.addr.
                     School of Computing, COM1 Basement
                     <br/>National University of Singapore, Computing 1
                     <br/>13 Computing Drive
             
-            .row
-                span.label Fee:&nbsp;
-                span $5/pax <br/><small>(make payment at COM1-02-15 or at our next Friday Hacks)</small>
+                dt Fee:&nbsp;
+                dd $5/pax 
+                  em (make payment at COM1-02-15 or at our next Friday Hacks)
 
-
-
-            .row
-                span.label Rules:&nbsp;
-                a(href="/rules") The Complete Rulebook
+                dt Rules:&nbsp;
+                dd 
+                  a(href="/rules") The Complete Rulebook
                 
 
-        section
+        section.span11.offsetp
             h2 Prizes
-            p Prizes to be confirmed.
+            dl.dl-horizontal
+              dt First Prize:
+              dd An all expense-paid trip to Sillicon Valley, (Palantir HQ, courtesy of Palantir).<br/>Github Silver Accounts
+              dt Other Prizes:
+              dd Prizes to be confirmed.
 
-        section
+        section.span11.offsetp
             h2 FAQ
 
             .question
@@ -90,8 +75,8 @@ block content
                 h3 What am I supposed to develop?
                 p .
                     Anything you want. A good starting point would be to consider problems you want to solve.
-                    //- <br/>
-                    //- <a href="/">Here's</a> a list of projects from last year to give you a better idea.
+                    <!--<br/>
+                    // <a href="/">Here's</a> a list of projects from last year to give you a better idea.-->
 
             .question
                 h3 Am I limited to X language, Y framework, Z platform?
@@ -103,7 +88,7 @@ block content
                 p .
                     Sure! You are free to build whatever you want.
         
-        section
+        section.span11.offsetp
             h2 Sponsors
             #logos
                 a(href="http://palantir.com")
@@ -116,7 +101,7 @@ block content
                 //-     img(src='/img/github.png', alt='Github Logo')
                     
 
-        footer
+        footer.span11.offsetp
             p.
                 &copy; 2013
                 &middot;
