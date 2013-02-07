@@ -11,6 +11,7 @@ CSS = $(LESS:.less=.css)
 
 all: clean $(CSS) $(HTML)
 	cp -r public/img static/img
+	cp public/css/*.css static/css/
 	# cp -r static/* $(TARGET)
 
 %.css: %.less
