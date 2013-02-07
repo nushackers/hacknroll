@@ -2,6 +2,7 @@
 @import "../css/bootstrapmin.css";
 
 // Variables
+@red: #fb4925;
 
 body {
   background: url("../img/tiny_grid.png") repeat;
@@ -23,15 +24,16 @@ p {
   width: 80%;
 }
 
-header {
-  //color: #e94622;
+section {
+  p {
+  margin-left: 4%;
+  width: 70%;
+  }
+  h2 { 
+    border-left: 5px solid @red;
+    padding-left: 5px;
+  }
 }
-
-section p {
-  margin-left: 8%;
-  width: 60%;
-}
-
 h1, h2, h3, h4 { 
   font-family: "Open Sans", "Helvetica", sans-serif;
 }
@@ -40,6 +42,11 @@ h1.top {
   font-size: 130px;
   line-height: 90%;
   .heading;
+}
+
+h1.top.red {
+    background: @red; 
+    color: #222;
 }
 
 h1.top2 {
@@ -55,8 +62,6 @@ h1.top2 {
 
 h2 {
   .heading;
-  padding-top: 10px;
-  border-top: 3px solid #888;
 }
 
 h3 { 
@@ -79,7 +84,7 @@ dt {
 }
 .question {
   margin-left: 4%;
-  h3 { color: #555;}
+  h3 { color: #aaa;}
 }
 
 .offsetp {
@@ -93,9 +98,12 @@ dt {
 }
 
 footer {
-  margin-top: 20px;
+  margin: 20px 0;
   padding-top: 20px;
   border-top: 3px solid #777;
 }
 
-
+.gray1 { background: #eee; }
+.gray2 { background: #ccc; }
+.gray3 { background: #222; color: #eee; }
+.orange-top { border-top: 5px solid @red;}
