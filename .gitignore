@@ -1,1 +1,6 @@
 static/
+
+.DS_Store
+
+*.un~
+*.swp
