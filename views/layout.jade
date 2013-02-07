@@ -6,7 +6,7 @@ html
     //- styles
     block styles
         //- font
-        link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600', rel='stylesheet)
+        link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600', rel='stylesheet', type='text/css')
 
         - if (typeof(env) === 'undefined' || (typeof(env) !== 'undefined' && env == "prod")) {
             link(rel='stylesheet', href='/css/main.css')
