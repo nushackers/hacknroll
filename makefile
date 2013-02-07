@@ -7,11 +7,11 @@ HTML = $(JADE:.jade=.html)
 LESS = $(shell find public/css/*.less)
 CSS = $(LESS:.less=.css)
 
-TARGET = /srv/http/
+# TARGET = /srv/http/
 
 all: clean $(CSS) $(HTML)
 	cp -r public/img static/img
-	cp -r static/* $(TARGET)
+	# cp -r static/* $(TARGET)
 
 %.css: %.less
 	$(LESSC) $< > static/css/$(@F)
