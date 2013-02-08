@@ -3,13 +3,14 @@ extends layout
 block content
         section.span11.offsetp.gray1
             h2 Hack&amp;Roll 2012
-
+            p Here is the full roster of the hacks, teams and tech stacks used from Hack&Roll 2012.
+            hr
             #teams
                 for team in teams
                     .team
                         h3 #{team.name}
                         //- dl.dl-horizontal.team
-                        dl
+                        dl.dl-horizontal
                             dt App:
                             dd #{team.app}
 
