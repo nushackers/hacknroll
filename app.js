@@ -27,11 +27,20 @@ app.get('/', function(req, res) {
         env: process.env.NODE_ENV === "production" ? "prod" : "dev"
     });
 });
+
 app.get("/index", function(req, res) {
     res.redirect("/");
 });
+
 app.get('/rules', function(req, res) {
     return res.render("rules", {
+        env: process.env.NODE_ENV === "production" ? "prod" : "dev"
+    });
+});
+
+app.get('/past/2012', function(req, res) {
+    return res.render("2012", {
+        teams: require('./models/2012').teams,
         env: process.env.NODE_ENV === "production" ? "prod" : "dev"
     });
 });
