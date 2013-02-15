@@ -8,6 +8,8 @@ HTML = $(subst $(JADE_DIR)/,$(HTML_DIR)/,$(JADE:.jade=.html))
 
 LESS_DIR = public/css
 LESS = $(wildcard $(LESS_DIR)/*.less)
+CSS_PRE_DIR = $(LESS_DIR)
+CSS_PRE = $(wildcard $(CSS_PRE_DIR)/*.css)
 CSS_DIR = static/css
 CSS = $(subst $(LESS_DIR)/,$(CSS_DIR)/,$(LESS:.less=.css))
 
@@ -15,11 +17,13 @@ CSS = $(subst $(LESS_DIR)/,$(CSS_DIR)/,$(LESS:.less=.css))
 
 all: clean $(CSS) $(HTML)
 	cp -r public/img static/img
-	cp public/css/*.css static/css/
 	# cp -r static/* $(TARGET)
 
 $(CSS_DIR)/%.css: $(LESS_DIR)/%.less
 	$(LESSC) $< > $@
+
+$(CSS_DIR)/%.css: $(CSS_PRE_DIR)/%.css
+	cp $< $@
 
 $(HTML_DIR)/%.html: $(JADE_DIR)/%.jade
 	$(JADEC) < $< --path $< > $@
