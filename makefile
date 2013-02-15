@@ -24,15 +24,19 @@ all: clean $(CSS) $(IMG) $(HTML)
 	# cp -r static/* $(TARGET)
 
 $(CSS_DIR)/%.css: $(LESS_DIR)/%.less
+	mkdir -p $(@D)
 	$(LESSC) $< > $@
 
 $(CSS_DIR)/%.css: $(CSS_PRE_DIR)/%.css
+	mkdir -p $(@D)
 	cp $< $@
 
 $(IMG_DIR)/%: $(IMG_PRE_DIR)/%
+	mkdir -p $(@D)
 	cp $< $@
 
 $(HTML_DIR)/%.html: $(JADE_DIR)/%.jade
+	mkdir -p $(@D)
 	$(JADEC) < $< --path $< > $@
 	sed -i 's|href="/\([^/"]*\)"|href="/\1.html"|g' $@
 
@@ -40,4 +44,3 @@ $(HTML_DIR)/%.html: $(JADE_DIR)/%.jade
 
 clean:
 	rm -rf static
-	mkdir -p $(CSS_DIR) $(IMG_DIR)
