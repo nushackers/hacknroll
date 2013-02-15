@@ -1,10 +1,10 @@
 JADEC = ./node_modules/.bin/jade
 LESSC = lessc
 
-JADE = $(shell find views/*.jade)
+JADE = $(wildcard views/*.jade)
 HTML = $(JADE:.jade=.html)
 
-LESS = $(shell find public/css/*.less)
+LESS = $(wildcard public/css/*.less)
 CSS = $(LESS:.less=.css)
 
 # TARGET = /srv/http/
