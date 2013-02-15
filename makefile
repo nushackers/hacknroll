@@ -20,7 +20,8 @@ IMG = $(subst $(IMG_PRE_DIR)/,$(IMG_DIR)/,$(IMG_PRE))
 
 # TARGET = /srv/http/
 
-all: clean $(CSS) $(IMG) $(HTML)
+# FIXME: removing stale files
+all: $(CSS) $(IMG) $(HTML)
 	# cp -r static/* $(TARGET)
 
 $(CSS_DIR)/%.css: $(LESS_DIR)/%.less
