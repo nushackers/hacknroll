@@ -25,4 +25,4 @@ all: clean $(CSS) $(HTML)
 
 clean:
 	rm -rf static
-	mkdir -p static/css static/views
+	mkdir -p static/css
