@@ -1,5 +1,6 @@
 #logo {
     width:15%;
+    max-width: 183px;
     top: 5px;
     left: 1%;
     position: fixed;
@@ -255,7 +256,6 @@ footer{
         top:30px;
     }
     .hero-unit h1 {
-        color: #fff;
         padding-top: 150px;
         font-size:40px;
     }
