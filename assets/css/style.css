@@ -13,29 +13,14 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-
 nav {
     padding-top: 0px;
     padding-bottom: 0px;
-    //font-family: 'Helvetica, Arial, sans-serif';
 }
 
 h1,h2,h3,h4,h5,h6{
     font-weight:250;
     text-shadow: 0 1px 3px rgba(0,0,0,.4);
-}
-header#top-section{
-    position:relative;
-    overflow:hidden;
-    padding-top:0px;
-    //background: url(../../images/bg1.jpg) 100% 0% no-repeat;
-    background: #fcfcfc;
-    background-size:100% 100%;
-    min-height:700px;
-    width:100%;
-    min-width:100%;
-    z-index:0;
-
 }
 .inner-top-bg{
     position:absolute;
@@ -50,8 +35,6 @@ header#top-section{
 }
 .hero-unit {
     background: none;
-    //text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px;
-    //text-shadow: 0 1px 3px rgba(248,194,46,.7), 0 0 30px rgba(248,194,46,.9);
     position:fixed;
     top:0px;
     left:0px;
@@ -101,46 +84,11 @@ p.lead {
 }
 
 section {
-    padding-top:50px;
-    padding-bottom:100px;
-    min-height:600px;
     width:100%;
     min-width:100%;
     position:relative;
     overflow:hidden;
     background: #fcfcfc;
-}
-
-#Section-1{
-    //background: url(../../images/bg2.jpg) 50% 0% fixed repeat;
-    background-size:100% 100%;
-    min-height:650px;
-}
-
-#Section-2{
-    //background: url(../../images/bg3.jpg) 50% 0% fixed repeat;
-    background-size:100% 100%;
-    min-height:650px;
-} 
-
-footer{
-    //background: url(../../images/bg4.jpg) 50% 0% fixed repeat;
-    background: #fcfcfc;
-    background-size:100% 100%;
-    max-height:600px;
-    width:100%;
-    min-width:100%;
-    padding-top:50px;
-    min-height:600px;
-    position:relative;
-}
-
-#Section-2 hr{
-    color:tramsparent;
-}
-
-#Section-3{
-    background:#fff;
 }
 
 .color-white{
@@ -166,7 +114,6 @@ footer{
     box-shadow:         1px 1px 12px rgba(50, 50, 50, 0.5);
 }
 
-/****************** NAVIGATION STYLES *************************/
 .navbar .nav > li > a {
     float: none;
     padding: 15px 20px 15px;
@@ -227,43 +174,4 @@ footer{
     color: #E6A423;
     fon-weight:600;
     border-bottom:3px solid #E6A423;
-}	
-/*************** @media ******************/
-@media (max-width: 979px){
-    body{
-        padding:0px;
-    }
-    .navbar-fixed-top {
-        margin-bottom: 0px;
-    }
-
-    .navbar-fixed-top, .navbar-fixed-bottom {
-        position: fixed;
-    }
-
-    .navbar .container {
-        width: auto;
-        padding: 0px 20px;
-    }
-
-    .navbar .brand {
-        padding-right: 10px;
-        padding-left: 10px;
-        margin: 0 0 0 15px;
-    }
-    .container{
-        padding:0px 20px;
-    }
-
-    .hero-unit {
-        padding: 0px;
-        top:30px;
-    }
-    .hero-unit h1 {
-        padding-top: 150px;
-        font-size:40px;
-    }
-    footer .page-header h3{
-        padding-top:100px !important;
-    }
 }
