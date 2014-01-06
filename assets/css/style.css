@@ -68,7 +68,7 @@ section {
 .content {
     padding: 1em;
     margin: 0 auto;
-    padding-top: 3em;
+    padding-top: 10em;
     max-width: 800px;
     width: 100%;
     position:relative;
@@ -77,9 +77,8 @@ section {
 .big-background {
     background-image: url(../../images/pic1.JPG);
     background-size: cover;
-    margin-top: -2em;
-    height: 46rem;
-    margin-bottom: -46rem;
+    height: 55rem;
+    margin-bottom: -55rem;
     background-position: bottom;
 }
 
@@ -143,7 +142,6 @@ section {
     color: #999;
     text-decoration: none;
     text-shadow: none;
-    font-weight:bold;
 }
 .navbar .nav > .active > a, 
 .navbar .nav > .active > a:hover, 
