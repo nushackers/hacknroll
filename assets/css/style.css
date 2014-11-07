@@ -77,11 +77,15 @@ section {
     position:relative;
 }
 
+.fill-row {
+    height: 7em;
+}
+
 .big-background {
     background-image: url(../../images/pic1.JPG);
     background-size: cover;
     height: 55rem;
-    margin-bottom: -55rem;
+    margin-bottom: -48rem;
     background-position: bottom;
 }
 
