@@ -1,200 +1,107 @@
-.logo {
-    float: left;
-    margin-top: -1.2em;
-    margin-bottom: -1.2em;
-}
-
-.logo > img {
-    height: 4.4em;
-}
-
-.glyphicon {
-    padding: 0 1.5em;
-}
-
-.page-header {
-    border: none;
-    position: relative;
-}
-
-.page-header:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 50%;
-    border-top: 1px solid;
-    left: 0;
-    right: 0;
-    z-index: 0;
-    color: peachpuff;
-}
-
-.page-header h1{
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    background: #fcfcfc;
-    padding: 0 1em;
-    font-size: 1.5em;
-    color: peru;
-}
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 
 body {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    font-family: 'Helvetica', 'Open Sans', sans-serif;
-    background: #fcfcfc;
-
-    text-shadow: 0 1px 1px white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
-a:link, a:visited {
-    color: #E6A423
+.section-title {
+    text-align: center;
+    background: #CCCC99;
+    padding: 2em;
+    box-shadow: 0 1px 1px #bbb, inset 0 1px 1px #ccc, 0 -1px 1px #bbb;
+    color: #555522;
 }
 
-nav {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-.navbar-nav {
-    min-width: 750px;
+.section-title h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-weight:250;
-}
-
-section {
-    font-size: 1.2em;
-}
-
-.content {
+.section {
     padding: 1em;
-    margin: 0 auto;
-    padding-top: 10em;
-    max-width: 800px;
+}
+
+.hero {
+    min-height: 400px;
+    height: 70vh;
+    text-align: center;
+    position: relative;
+
+    background: lightblue;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, lightblue 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, lightblue));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, lightblue 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, lightblue 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, lightblue 100%);
+    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, lightblue 100%);
+}
+
+.hero .logo {
+    height: 6em;
+}
+
+.hero .container {
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 75%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 75%, color-stop(0%, rgba(255,255,255,1)), color-stop(75%, rgba(255, 255, 255, 0)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 75%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 75%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 75%);
+    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 75%);
+}
+
+.hero canvas {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
     width: 100%;
-    position:relative;
+    height: 100%;
 }
 
-.fill-row {
-    height: 7em;
+.vcenter {
+    position: relative;
 }
 
-.big-background {
-    background-image: url(../../images/pic1.JPG);
-    background-size: cover;
-    height: 55rem;
-    margin-bottom: -48rem;
-    background-position: bottom;
+.vcenter>.vcenter-inner {
+    vertical-align: middle;
+    display: inline-block;
 }
 
-.btn.btn-start{
-    background: #f8941d;
-    border:4px solid #fff;
-    color:#fff;
-    padding: 19px 24px;
-    font-size: 24px;
-    font-weight: 200;
-    margin-top:40px;
-    z-index:2;
-}		
-.btn.btn-start:hover{
-    background: #F8C22E;
-    color:#fff;
-    padding: 19px 24px;
-    font-size: 24px;
-    font-weight: 200;
-    margin-top:40px;
-    z-index:2;
+.vcenter:before {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    content: "";
+    margin-right: -1em;
 }
 
-#top-section {
-    color: white;
-    text-shadow: 0 1px 3px rgba(0,0,0,.4);
-}
-
-#top-section h1 {
-    font-size: 3em;
-}
-
-
-#top-section .large {
-    font-size: 5em;
-}
-
-#top-section .row{
-    margin-bottom: 20px;
-}
-
-#top-section .glyphicon {
-    color: gold;
-}
-
-#top-section blockquote {
-    color: black;
-    text-shadow: 0 1px 1px white;
-}
-
-.lead {
+.sponsor {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
-.color-white{
-    color:#fff;
+.sponsor > li {
+    display: inline-block;
 }
 
-.navbar .nav > li > a {
-    padding: 0.5em 20px 0.5em;
-    color: #999;
-    text-decoration: none;
-    text-shadow: none;
-}
-.navbar .nav > .active > a, 
-.navbar .nav > .active > a:hover, 
-.navbar .nav > .active > a:focus {
-    color: #333;
-    text-decoration: none;
-    background-color: #fff;
-    box-shadow:  none;
+.sponsor.medium img {
+    height: 1.5em;
 }
 
-.navbar .brand {
-    padding: 15px 0px 15px;
-    font-size:28px;
+.past header {
+    font-size: 1.5em;
+    text-align: center;
 }
 
-.navbar-inner {
-    font-size: 19px;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    min-height: 30px;
-    padding-right: 20px;
-    padding-left: 20px;
-    background-color: #fafafa;
-    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
-    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
-    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
-    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
-    background-repeat: repeat-x;
-    border: none;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffffffff', GradientType=0);
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    border-bottom: 1px solid #ccc;
-}
-
-.navbar .nav > li > a{
-    border-bottom:3px solid transparent;
-}
-
-.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-    color: #E6A423;
-    fon-weight:600;
-    border-bottom:3px solid #E6A423;
+@media (min-width: 550px) {
+    .hero .vcenter-inner {
+        min-width: 450px;
+    }
 }
