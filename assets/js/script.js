@@ -64,7 +64,6 @@ function DrawWorm(){
 
         context = canvas.getContext('2d');
         
-        dom.addEventListener('touchmove', TouchMove, false);
         dom.addEventListener('mousemove', MouseMove, false);
         dom.addEventListener('click', MouseDown, false);
         
