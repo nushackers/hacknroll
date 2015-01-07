@@ -24,6 +24,10 @@ body {
     padding: 1em;
 }
 
+.important {
+    color: red;
+}
+
 .hero {
     min-height: 400px;
     height: 70vh;
