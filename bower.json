@@ -1,0 +1,12 @@
+{
+  "name": "hacknroll",
+  "version": "0.0.0",
+  "homepage": "http://hacknroll.nushackers.org",
+  "authors": [
+    "Yujian <yyjhao@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "skeleton": "~2.0.2"
+  }
+}
