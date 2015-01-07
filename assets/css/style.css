@@ -28,6 +28,10 @@ body {
     color: red;
 }
 
+.sponsors .container {
+    width: 100%;
+}
+
 .hero {
     min-height: 400px;
     height: 70vh;
