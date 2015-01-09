@@ -34,7 +34,7 @@ body {
 
 .hero {
     min-height: 400px;
-    height: 70vh;
+    min-height: 70vh;
     text-align: center;
     position: relative;
 
