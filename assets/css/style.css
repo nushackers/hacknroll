@@ -34,7 +34,6 @@ body {
 
 .hero {
     min-height: 400px;
-    min-height: 70vh;
     text-align: center;
     position: relative;
 
@@ -111,5 +110,11 @@ body {
 @media (min-width: 550px) {
     .hero .vcenter-inner {
         min-width: 450px;
+    }
+}
+
+@media (min-width: 370px) {
+    .hero {
+        height: 70vh;
     }
 }
