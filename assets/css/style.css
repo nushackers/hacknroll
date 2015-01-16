@@ -102,6 +102,28 @@ body {
 
 .sponsor > li {
     display: inline-block;
+
+    -webkit-filter: sepia(1);
+    -moz-filter: sepia(1);
+    -ms-filter: sepia(1);
+    filter: sepia(1);
+
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+
+    opacity: 0.6;
+}
+
+.sponsor > li:hover {
+    -webkit-filter: sepia(0);
+    -moz-filter: sepia(0);
+    -ms-filter: sepia(0);
+    filter: sepia(0);
+
+    opacity: 1;
+
 }
 
 .sponsor.medium img {
