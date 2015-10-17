@@ -12,6 +12,10 @@ dt {
   border-bottom: 2px solid black;
   display: inline-block; }
 
+.note {
+  font-size: 0.75em;
+  color: #777; }
+
 .tier-table {
   font-size: 1.2em;
   width: 100%;
