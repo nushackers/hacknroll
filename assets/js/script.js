@@ -9,7 +9,7 @@ var c = document.querySelector('canvas'),
 var ox = 0, oy = 0;
 var ex = 0, ey = 0;
 var registerAttraction = 1000000;
-var logoAttraction = 9000;
+var logoAttraction = 0;
 var attraction = logoAttraction;
 
 var hovered = false;
@@ -17,18 +17,19 @@ var logo = document.querySelector(".logo");
 var register = document.querySelector(".register-button");
 var registerButton = document.querySelector(".register-button");
 logo.onmouseover = function() {
-    hovered = true;
-    attraction = logoAttraction;
+    // hovered = true;
+    // attraction = logoAttraction;
 };
 
 registerButton.onmouseout = logo.onmouseout = function() {
-    hovered = false;
-    initLines();
-    step = 150;
+    // hovered = false;
+    // initLines();
+    // step = 150;
+    attraction = logoAttraction;
 };
 
 registerButton.onmouseover = function() {
-    hovered = true;
+    // hovered = true;
     attraction = registerAttraction;
 };
 
@@ -83,9 +84,9 @@ function draw() {
 
     if (step >= 150) {
         // initLines();
-        if (hovered) {
+        // if (hovered) {
             step = 0;
-        }
+        // }
         return;
     }
 

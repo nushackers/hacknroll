@@ -15,12 +15,21 @@ body {
     line-height: auto;
 }
 
+.tbd {
+    font-size: 1.6em;
+    text-align: center;
+}
+
 .section-container :link, .section-container :visited {
     color: white;
 }
 
 .info {
-    background: #446444;
+    background: #222;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url("../../images/pic1.jpg");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 1px 1px black;
     color: white;
 }
 
@@ -28,13 +37,31 @@ body {
     color: black;
 }
 
+.timeline {
+    background: #222;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url("../../images/pic3.jpg");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 1px 1px black;
+    color: white;
+}
+
 .prize {
-    background: #644444;
+    background: #6FCB70;
+    color: white;
+}
+
+.sponsors {
+    background: #F2A359;
     color: white;
 }
 
 .past {
-    background: #644464;
+    background: #222;
+    background: linear-gradient(rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url("../../images/pic2.jpg");
+    text-shadow: 0 1px 1px black;
+    background-size: cover;
+    background-position: center;
     color: white;
 }
 
@@ -71,14 +98,13 @@ body {
     font-family: Verdana, Geneva, sans-serif;
 
     background: rgb(50, 50, 100);
-/*    background: lightblue;
-    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, lightblue 100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, lightblue));
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, lightblue 100%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, lightblue 100%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, lightblue 100%);
-    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, lightblue 100%);
-*/}
+}
+
+footer {
+    background: lightblue;
+    padding-top: 1em;
+    text-align: center;
+}
 
 .hero .logo {
     height: 8em;
@@ -86,14 +112,7 @@ body {
 
 .hero .container {
     height: 100%;
-    /*background: rgba(255, 255, 255, 0.2);*/
-/*    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%, rgba(255, 255, 255, 0) 75%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 75%, color-stop(0%, rgba(255,255,255,0.5)), color-stop(75%, rgba(255, 255, 255, 0)));
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%, rgba(255, 255, 255, 0) 75%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%, rgba(255, 255, 255, 0) 75%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%, rgba(255, 255, 255, 0) 75%);
-    background: radial-gradient(ellipse at center, rgba(255,255,255,0.5) 0%, rgba(255, 255, 255, 0) 75%);
-*/}
+}
 
 .hero canvas {
     position: absolute;
