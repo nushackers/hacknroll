@@ -4,60 +4,28 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-    font-size: 1.7em;
 }
 
-.button {
-    border-radius: 0;
-    font-size: 1.5em;
-    padding: 1em;
-    height: auto;
-    line-height: auto;
-}
-
-.section-container :link, .section-container :visited {
-    color: white;
-}
-
-.info {
-    background: #446444;
-    color: white;
-}
-
-.info code {
-    color: black;
-}
-
-.prize {
-    background: #644444;
-    color: white;
-}
-
-.past {
-    background: #644464;
-    color: white;
-}
-
-.section-container {
-    padding-top: 2em;
-    padding-bottom: 2em;
+.section-title {
+    text-align: center;
+    background: #CCCC99;
+    padding: 2em;
+    box-shadow: 0 1px 1px #bbb, inset 0 1px 1px #ccc, 0 -1px 1px #bbb;
+    color: #555522;
 }
 
 .section-title h1{
     margin: 0;
     padding: 0;
     font-weight: bold;
-    font-size: 3em;
-    font-family: arial;
-    text-align: center;
 }
 
 .section {
     padding: 1em;
 }
 
-.section-content {
-    padding-top: 20px;
+.important {
+    color: red;
 }
 
 .sponsors .container {
@@ -68,17 +36,15 @@ body {
     min-height: 400px;
     text-align: center;
     position: relative;
-    font-family: Verdana, Geneva, sans-serif;
 
-    background: rgb(50, 50, 100);
-/*    background: lightblue;
+    background: lightblue;
     background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, lightblue 100%);
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, lightblue));
     background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, lightblue 100%);
     background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, lightblue 100%);
     background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, lightblue 100%);
     background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, lightblue 100%);
-*/}
+}
 
 .hero .logo {
     height: 8em;
@@ -86,14 +52,14 @@ body {
 
 .hero .container {
     height: 100%;
-    /*background: rgba(255, 255, 255, 0.2);*/
-/*    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%, rgba(255, 255, 255, 0) 75%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 75%, color-stop(0%, rgba(255,255,255,0.5)), color-stop(75%, rgba(255, 255, 255, 0)));
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%, rgba(255, 255, 255, 0) 75%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%, rgba(255, 255, 255, 0) 75%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.5) 0%, rgba(255, 255, 255, 0) 75%);
-    background: radial-gradient(ellipse at center, rgba(255,255,255,0.5) 0%, rgba(255, 255, 255, 0) 75%);
-*/}
+    background: rgba(255, 255, 255, 0.2);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 75%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 75%, color-stop(0%, rgba(255,255,255,1)), color-stop(75%, rgba(255, 255, 255, 0)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 75%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 75%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 75%);
+    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 75%);
+}
 
 .hero canvas {
     position: absolute;
@@ -102,15 +68,6 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: transparent;
-}
-
-.hero {
-    color: white;
-}
-
-.hero h1 {
-    font-weight: bold;
 }
 
 .vcenter {
@@ -128,6 +85,12 @@ body {
     vertical-align: middle;
     content: "";
     margin-right: -1em;
+}
+
+.prize {
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .sponsor {
@@ -174,13 +137,12 @@ body {
 
 @media (min-width: 550px) {
     .hero .vcenter-inner {
-        min-height: 450px;
+        min-width: 450px;
     }
 }
 
 @media (min-width: 370px) {
     .hero {
-        height: 50vh;
-        min-height: 600px;
+        height: 70vh;
     }
 }
