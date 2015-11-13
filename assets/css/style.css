@@ -26,7 +26,7 @@ body {
 
 .info {
     background: #222;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url("../../images/pic1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7)), url("../../images/pic1.jpg");
     background-size: cover;
     background-position: center;
     text-shadow: 0 1px 1px black;
@@ -39,7 +39,7 @@ body {
 
 .timeline {
     background: #222;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url("../../images/pic3.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7)), url("../../images/pic3.jpg");
     background-size: cover;
     background-position: center;
     text-shadow: 0 1px 1px black;
@@ -58,7 +58,7 @@ body {
 
 .past {
     background: #222;
-    background: linear-gradient(rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url("../../images/pic2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7)), url("../../images/pic2.jpg");
     text-shadow: 0 1px 1px black;
     background-size: cover;
     background-position: center;

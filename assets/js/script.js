@@ -8,7 +8,7 @@ var c = document.querySelector('canvas'),
 
 var ox = 0, oy = 0;
 var ex = 0, ey = 0;
-var registerAttraction = 1000000;
+var registerAttraction = 100000000;
 var logoAttraction = 0;
 var attraction = logoAttraction;
 
