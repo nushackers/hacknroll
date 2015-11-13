@@ -107,7 +107,8 @@ footer {
 }
 
 .hero .logo {
-    height: 8em;
+    width: 20em;
+    max-width: 90%;
 }
 
 .hero .container {
