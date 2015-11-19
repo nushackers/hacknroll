@@ -26,7 +26,7 @@ body {
 
 .info {
     background: #222;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url("../../images/pic1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7)), url("../../images/pic1.jpg");
     background-size: cover;
     background-position: center;
     text-shadow: 0 1px 1px black;
@@ -39,7 +39,7 @@ body {
 
 .timeline {
     background: #222;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url("../../images/pic3.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7)), url("../../images/pic3.jpg");
     background-size: cover;
     background-position: center;
     text-shadow: 0 1px 1px black;
@@ -58,7 +58,7 @@ body {
 
 .past {
     background: #222;
-    background: linear-gradient(rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url("../../images/pic2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7)), url("../../images/pic2.jpg");
     text-shadow: 0 1px 1px black;
     background-size: cover;
     background-position: center;
@@ -71,11 +71,11 @@ body {
 }
 
 .section-title h1{
-    margin: 0;
+    margin: 7;
     padding: 0;
     font-weight: bold;
     font-size: 3em;
-    font-family: arial;
+    font-family: Lato;
     text-align: center;
 }
 
@@ -101,13 +101,43 @@ body {
 }
 
 footer {
-    background: lightblue;
+    background: darkslateblue;
+    color: white;
     padding-top: 1em;
     text-align: center;
 }
 
 .hero .logo {
-    height: 8em;
+    width: 27em;
+    max-width: 90%;
+}
+
+.custom-btn {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-weight: 300;
+    letter-spacing: 3px;
+    background-color: cornflowerblue;
+    border: 3px solid #fff;
+    border-radius: 1px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    <!--transition: color 0.3s ease-out,
+    background-color 0.3s ease-out,
+    border-color 0.3s ease-out;-->
+}
+.custom-btn:hover,
+.custom-btn:active {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+    transition: color 0.3s ease-in,
+    background-color 0.3s ease-in,
+    border-color 0.3s ease-in;
 }
 
 .hero .container {
