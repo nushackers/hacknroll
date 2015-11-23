@@ -52,8 +52,8 @@ body {
 }
 
 .sponsors {
-    background: #F2A359;
-    color: white;
+    background: #fda;
+    color: #444;
 }
 
 .past {
@@ -179,20 +179,37 @@ footer {
     margin-right: -1em;
 }
 
-.sponsor {
+.sponsors-list-huge, .sponsors-list-big, .sponsors-list-medium, .sponsors-list-small {
     list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-.sponsor > li {
+.sponsors-list-huge img {
+    height: 170px;
+}
+
+.sponsors-list-big img {
+    height: 110px;
+}
+
+.sponsors-list-medium img {
+    height: 80px;
+}
+
+.sponsors-list-small img {
+    height: 50px;
+}
+
+
+.sponsors-list-huge > li, .sponsors-list-big > li, .sponsors-list-medium > li, .sponsors-list-small > li {
     display: inline-block;
 
-    -webkit-filter: sepia(1);
-    -moz-filter: sepia(1);
-    -ms-filter: sepia(1);
-    filter: sepia(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    filter: grayscale(1);
 
     -webkit-transition-duration: 0.2s;
     -moz-transition-duration: 0.2s;
@@ -202,18 +219,14 @@ footer {
     opacity: 0.6;
 }
 
-.sponsor > li:hover {
-    -webkit-filter: sepia(0);
-    -moz-filter: sepia(0);
-    -ms-filter: sepia(0);
-    filter: sepia(0);
+.sponsors-list-huge > li:hover, .sponsors-list-big > li:hover, .sponsors-list-medium > li:hover, .sponsors-list-small > li:hover {
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    filter: grayscale(0);
 
     opacity: 1;
 
-}
-
-.sponsor.medium img {
-    height: 1.5em;
 }
 
 .past header {
