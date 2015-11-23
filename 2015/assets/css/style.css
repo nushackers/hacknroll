@@ -1,0 +1,148 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.section-title {
+    text-align: center;
+    background: #CCCC99;
+    padding: 2em;
+    box-shadow: 0 1px 1px #bbb, inset 0 1px 1px #ccc, 0 -1px 1px #bbb;
+    color: #555522;
+}
+
+.section-title h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.section {
+    padding: 1em;
+}
+
+.important {
+    color: red;
+}
+
+.sponsors .container {
+    width: 100%;
+}
+
+.hero {
+    min-height: 400px;
+    text-align: center;
+    position: relative;
+
+    background: lightblue;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, lightblue 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, lightblue));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, lightblue 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, lightblue 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, lightblue 100%);
+    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, lightblue 100%);
+}
+
+.hero .logo {
+    height: 8em;
+}
+
+.hero .container {
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 75%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 75%, color-stop(0%, rgba(255,255,255,1)), color-stop(75%, rgba(255, 255, 255, 0)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 75%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 75%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 75%);
+    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 75%);
+}
+
+.hero canvas {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.vcenter {
+    position: relative;
+}
+
+.vcenter>.vcenter-inner {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.vcenter:before {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    content: "";
+    margin-right: -1em;
+}
+
+.prize {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.sponsor {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.sponsor > li {
+    display: inline-block;
+
+    -webkit-filter: sepia(1);
+    -moz-filter: sepia(1);
+    -ms-filter: sepia(1);
+    filter: sepia(1);
+
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+
+    opacity: 0.6;
+}
+
+.sponsor > li:hover {
+    -webkit-filter: sepia(0);
+    -moz-filter: sepia(0);
+    -ms-filter: sepia(0);
+    filter: sepia(0);
+
+    opacity: 1;
+
+}
+
+.sponsor.medium img {
+    height: 1.5em;
+}
+
+.past header {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+@media (min-width: 550px) {
+    .hero .vcenter-inner {
+        min-width: 450px;
+    }
+}
+
+@media (min-width: 370px) {
+    .hero {
+        height: 70vh;
+    }
+}
