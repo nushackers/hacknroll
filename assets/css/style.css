@@ -179,6 +179,15 @@ footer {
     margin-right: -1em;
 }
 
+.sponsor-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1em;
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+}
+
 .sponsors-list-huge, .sponsors-list-big, .sponsors-list-medium, .sponsors-list-small {
     list-style: none;
     margin: 0;
