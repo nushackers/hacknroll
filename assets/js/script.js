@@ -4,17 +4,11 @@ var c = document.querySelector('canvas'),
         w = c.width = c.getBoundingClientRect().width,
         h = c.height = c.getBoundingClientRect().height,
         lines = [],
-        lineCount = 75;
+        lineCount = 100;
 
 var ox = 0, oy = 0;
-var ex = 0, ey = 0;
-var registerAttraction = 100000000;
-var logoAttraction = 0;
 
-var hovered = false;
 var logo = document.querySelector(".logo");
-var register = document.querySelector(".register-button");
-var registerButton = document.querySelector(".register-button");
 
 function init() {
     stage();
@@ -31,10 +25,6 @@ function stage() {
     var crect = c.getBoundingClientRect();
     ox = rect.left + rect.width / 2 - crect.left;
     oy = rect.top + rect.height / 2 -  crect.top;
-
-    var rrect = register.getBoundingClientRect();
-    ex = rrect.left + rrect.width / 2 - crect.left;
-    ey = rrect.top + rrect.height / 2 -  crect.top;
 
 }
 
@@ -102,8 +92,7 @@ function draw() {
                 break;
         }
         $.lineTo(l.location.x, l.location.y);
-        if (l.location.x < 0 || l.location.x > w || l.location.y < 0 || l.location.y > h ||
-            Math.pow(l.location.x - ex, 2) + Math.pow(l.location.y - ey, 2) < 100) {
+        if (l.location.x < 0 || l.location.x > w || l.location.y < 0 || l.location.y > h) {
             l.location.x = ox;
             l.location.y = oy;
         }
