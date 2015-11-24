@@ -35,6 +35,7 @@ body {
 
 .info code {
     color: black;
+    text-shadow: none;
 }
 
 .timeline {
