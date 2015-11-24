@@ -169,6 +169,7 @@ footer {
 .vcenter>.vcenter-inner {
     vertical-align: middle;
     display: inline-block;
+    width: 100%;
 }
 
 .vcenter:before {
