@@ -48,8 +48,16 @@ body {
 }
 
 .prize {
-    background: #6FCB70;
-    color: white;
+    background: #BFFBC0;
+    color: black;
+}
+
+.prize h3, .prize h4 {
+    text-align: center;
+}
+
+.prize h2 {
+    text-align: center;
 }
 
 .sponsors {
