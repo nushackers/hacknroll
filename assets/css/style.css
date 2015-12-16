@@ -60,6 +60,11 @@ body {
     text-align: center;
 }
 
+sup {
+    vertical-align: super;
+    font-size: medium;
+}
+
 .sponsors {
     background: #fda;
     color: #444;
