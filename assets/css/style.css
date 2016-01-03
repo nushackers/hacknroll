@@ -154,6 +154,16 @@ footer {
     border-color 0.3s ease-in;
 }
 
+.disabled-register {
+    opacity: 0.7;
+}
+
+.disabled-register:hover,
+.disabled-register:active {
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
 .hero .container {
     height: 100%;
 }
