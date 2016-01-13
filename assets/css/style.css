@@ -276,6 +276,15 @@ footer {
     text-align: center;
 }
 
+.important {
+    background: red;
+    border: 2px solid yellow;
+    border-radius: 4px;
+    padding: 10px;
+    max-width: 400px;
+    margin: 2em auto;
+}
+
 @media (min-width: 550px) {
     .hero .vcenter-inner {
         min-height: 450px;
