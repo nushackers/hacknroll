@@ -285,6 +285,13 @@ footer {
     margin: 2em auto;
 }
 
+.end-info {
+}
+
+.end-info :link, .end-info :visited {
+    color: white;
+}
+
 @media (min-width: 550px) {
     .hero .vcenter-inner {
         min-height: 450px;
