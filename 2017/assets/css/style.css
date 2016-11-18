@@ -1,3 +1,32 @@
+#nav ul li a.button {
+    min-width: 5em;
+}
+
+#about p {
+    text-align: left;
+}
+
+#prizes h2, #prizes h3, #prizes h4 {
+    text-align: center;
+}
+
+#prizes {
+    text-align: left;
+}
+
+#timeline td {
+    text-align: left;
+    vertical-align: middle;
+}
+
+#past .section-content {
+    text-align:left;
+}
+
+#nav ul li a.button:hover {
+    background-color: #9acff2;
+}
+
 #sponsors a {
     border-bottom: none;
 }
