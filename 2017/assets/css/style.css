@@ -112,5 +112,12 @@
     filter: grayscale(0);
 
     opacity: 1;
+}
 
+.gallerytext {
+    text-align:right;
+}
+
+.gallerytext a {
+    font-size: 0.8em;
 }
