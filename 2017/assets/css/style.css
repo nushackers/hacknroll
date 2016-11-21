@@ -4,9 +4,10 @@
 
 #about p {
     text-align: left;
+    color: #939393;
 }
 
-#prizes h2, #prizes h3, #prizes h4 {
+#prizes h2, #prizes h3, #prizes h4, #prizes h5 {
     text-align: center;
 }
 
@@ -14,9 +15,25 @@
     text-align: left;
 }
 
+#prizes .subheader {
+    margin-top: 0.5em;
+}
+
+#prizes h3 {
+    font-size: 1.8em;
+}
+
+#prizes footnote {
+    font-size: 0.8em;
+}
+
+#prizes p, #prizes footnote {
+    color: #939393;
+}
+
 #timeline td {
     text-align: left;
-    vertical-align: middle;
+    vertical-align: middle
 }
 
 #past .section-content {
