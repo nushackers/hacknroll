@@ -3804,3 +3804,30 @@
 			}
 
 		}
+
+/* Custom */
+		.note {
+			font-size: 0.75em;
+			color: #777;
+		}
+
+		td:last-child, th:last-child {
+				  color: #bbb;
+		}
+		.overlay {
+			position: relative;
+		}
+		.overlay:after {
+			display: block;
+			content: "Sponsored";
+			font-size: 2em;
+			position: absolute;
+			top: 5px;
+			left: 50%;
+			-webkit-transform: translateX(-3em) rotate(70deg);
+			transform: translateX(-3em) rotate(70deg);
+			border: 5px solid;
+			padding: 10px;
+			border-radius: 15px;
+			color: #e69500;
+		}
