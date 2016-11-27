@@ -135,7 +135,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     });
 
     $(document).ready(function() {
-      $('#gallery').magnificPopup({
+      $('#past').magnificPopup({
         delegate: '.image-link',
         type: 'image',
         gallery: {
