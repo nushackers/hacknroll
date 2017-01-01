@@ -108,7 +108,7 @@
 
 .sponsors-list-medium img {
     max-width: 100%;
-    height: 80px;
+    height: 70px;
 }
 
 .sponsors-list-small img {
@@ -120,11 +120,6 @@
 .sponsors-list-huge > li, .sponsors-list-big > li, .sponsors-list-medium > li, .sponsors-list-small > li {
     display: inline-block;
 
-    -webkit-filter: grayscale(1);
-    -moz-filter: grayscale(1);
-    -ms-filter: grayscale(1);
-    filter: grayscale(1);
-
     -webkit-transition-duration: 0.2s;
     -moz-transition-duration: 0.2s;
     -ms-transition-duration: 0.2s;
@@ -134,10 +129,6 @@
 }
 
 .sponsors-list-huge > li:hover, .sponsors-list-big > li:hover, .sponsors-list-medium > li:hover, .sponsors-list-small > li:hover {
-    -webkit-filter: grayscale(0);
-    -moz-filter: grayscale(0);
-    -ms-filter: grayscale(0);
-    filter: grayscale(0);
 
     opacity: 1;
 }
