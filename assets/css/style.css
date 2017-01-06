@@ -99,17 +99,18 @@
 
 .sponsors-list-big li {
   max-width: 75%;
+  vertical-align: middle;
 }
 
 @media (min-width: 700px) {
-  .sponsors-list-big li {
-    max-width: 45%;
-  }
+    .sponsors-list-big .palantir-logo {
+        max-width: 75%;
+    }
 }
 
 .sponsors-list-big img {
     max-width: 100%;
-    max-height: 102px;
+    max-height: 105px;
     padding-left: 10%;
 }
 .sponsors-list-medium img {
