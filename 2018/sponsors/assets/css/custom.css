@@ -142,3 +142,10 @@ th {
 	font-family: "Montserrat";
 	font-size: 17px !important;
 }
+
+.fa-chevron-right, .fa-chevron-left {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
