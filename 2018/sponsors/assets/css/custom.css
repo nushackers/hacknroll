@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Muli:300,400');
 
 .custom-navbar {
 	font-weight: 400;
-	font-family: "Montserrat", "Open Sans", sans-serif !important;
+	font-family: "Montserrat", "Muli", sans-serif !important;
 	background-color: aliceblue !important;
 }
 
@@ -10,9 +10,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Montserrat, sans-serif;
 }
 
-body {
-	font-family: "Open Sans", sans-serif;
-	font-weight: 300;
+body, p {
+	font-family: Muli, sans-serif;
+/*	font-weight: 300;*/
+	font-weight: 400;
 }
 
 p {
@@ -23,12 +24,6 @@ p {
 	width: 10%;
 	border-width: 2px;
 	border-color: #333333;
-}
-
-.custom-hr-red {
-	width: 10%;
-	border-width: 2px;
-	border-color: #fd5c63;
 }
 
 #title {
@@ -43,11 +38,11 @@ p {
 /* Various Sections */
 
 #particles-js {
-/*	background-color: beige;*/
 }
 
 #about, #event-details, #in-kind, #gallery {
-	background-color: #F2F2F2;
+/*	background-color: #F2F2F2;*/
+	background-color: #FCE7E3;
 }
 
 .navbar {
@@ -148,4 +143,9 @@ th {
     position: absolute;
     top: 50%;
     z-index: 5;
+}
+
+.carousel-caption p {
+	font-weight: 400;
+	font-size: 20px;
 }
