@@ -40,9 +40,13 @@ p {
 #particles-js {
 }
 
+#prev-sponsors, #sponsorship, #prizes, #contact-us {
+	background-color: #FFFFFF;
+}
+
 #about, #event-details, #in-kind, #gallery {
 /*	background-color: #F2F2F2;*/
-	background-color: #FCE7E3;
+	background-color: #FAFAFA;
 }
 
 .navbar {
