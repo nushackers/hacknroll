@@ -4,6 +4,7 @@
 	font-weight: 400 !important;
 	font-family: "Montserrat", "Muli", sans-serif !important;
 	background-color: #FAFAFA !important;
+	opacity: 0.8;
 }
 
 .navbar-collapse ul li a {
