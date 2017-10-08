@@ -3,7 +3,7 @@
 .custom-navbar {
 	font-weight: 400 !important;
 	font-family: "Montserrat", "Muli", sans-serif !important;
-	background-color: transparent!important;
+	background-color: #FAFAFA !important;
 }
 
 .navbar-collapse ul li a {
@@ -12,8 +12,12 @@
 	color: #1D62F0 !important;
 }
 
-a:hover {
+.navbar-collapse ul li a:hover {
 	background-color: aquamarine !important;
+}
+
+navbar-brand:hover {
+	background-color: transparent !important;
 }
 
 .navbar-font {

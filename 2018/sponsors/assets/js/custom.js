@@ -30,7 +30,8 @@ $(document).ready(function() {
 	particlesJS.load('particles-js', 'assets/particles.json', function() {
 		console.log('callback - particles.js config loaded');
 	});
-
+	
+	/* Reveal smoothly */
 	window.sr = ScrollReveal();
 	var sections = ['about', 'prev-sponsors', 'event-details', 'sponsorship', 'in-kind', 'prizes', 'gallery', 'contact-us'];
 	for(var i = 0; i < sections.length; i++) {
