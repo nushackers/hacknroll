@@ -1,9 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Muli:300,400');
 
 .custom-navbar {
+	font-weight: 400 !important;
+	font-family: "Montserrat", "Muli", sans-serif !important;
+	background-color: transparent!important;
+}
+
+.navbar-collapse ul li a {
 	font-weight: 400;
 	font-family: "Montserrat", "Muli", sans-serif !important;
-	background-color: aliceblue !important;
+	color: #1D62F0 !important;
+}
+
+a:hover {
+	background-color: aquamarine !important;
+}
+
+.navbar-font {
+	font-weight: 400;
+	font-family: "Montserrat", "Muli", sans-serif !important;
+	color: #1D62F0;
 }
 
 h1, h2, h3, h4, h5, h6 {
