@@ -102,6 +102,14 @@ p {
 	padding: 20px;
 }
 
+.platinum-sponsor, .gold-sponsor, .silver-sponsor, .bronze-sponsor {
+	padding-top: 20px;
+}
+
+#ef {
+	padding-top: 40px;
+}
+
 .custom-btn {
 	display: inline-block;
 	width: 200px;
