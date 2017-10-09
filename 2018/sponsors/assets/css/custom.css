@@ -122,6 +122,10 @@ p {
 	}
 }
 
+#event-details p, #about p {
+	font-size: 20px;
+}
+
 .custom-btn {
 	display: inline-block;
 	width: 200px;
