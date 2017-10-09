@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body, p {
 	font-family: Muli, sans-serif;
-/*	font-weight: 300;*/
+	/*	font-weight: 300;*/
 	font-weight: 400;
 }
 
@@ -52,7 +52,7 @@ p {
 }
 
 #subtitle {
-/*	color: #fd5c63;*/
+	/*	color: #fd5c63;*/
 	color: #1D62F0;
 }
 
@@ -66,7 +66,7 @@ p {
 }
 
 #about, #event-details, #in-kind, #gallery {
-/*	background-color: #F2F2F2;*/
+	/*	background-color: #F2F2F2;*/
 	background-color: #FAFAFA;
 }
 
@@ -81,7 +81,7 @@ p {
 }
 
 .gold-sponsor {
-	max-width: 200px;
+	max-width: 280px;
 }
 
 .silver-sponsor {
@@ -107,7 +107,19 @@ p {
 }
 
 #ef {
-	padding-top: 40px;
+	padding-top: 10px;
+}
+
+@media (max-width: 767px) {
+	#ef {
+		padding-top: 40px;
+	}
+}
+
+@media (min-width: 767px) {
+	#palantir {
+		padding-top: 30px;
+	}
 }
 
 .custom-btn {
@@ -172,10 +184,10 @@ th {
 }
 
 .fa-chevron-right, .fa-chevron-left {
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    z-index: 5;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	z-index: 5;
 }
 
 .carousel-caption p {
