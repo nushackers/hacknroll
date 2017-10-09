@@ -81,7 +81,7 @@ p {
 }
 
 .platinum-sponsor {
-/*	max-width: 600px;*/
+	/*	max-width: 600px;*/
 }
 
 .gold-sponsor {
@@ -122,6 +122,21 @@ p {
 @media (max-width: 767px) {
 	#ef {
 		padding-top: 40px;
+	}
+}
+
+@media (max-width: 767px) {
+	.platinum-sponsor {
+		min-width: 300px !important;
+	}
+	.gold-sponsor {
+		max-width: 200px !important;
+	}
+	.silver-sponsor {
+		max-width: 150px;
+	}
+	.bronze-sponsor {
+		max-width: 80px;
 	}
 }
 
