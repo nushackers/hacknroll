@@ -80,8 +80,12 @@ p {
 	width: 70%;
 }
 
+.platinum-sponsor {
+/*	max-width: 600px;*/
+}
+
 .gold-sponsor {
-	max-width: 280px;
+	max-width: 300px;
 }
 
 .silver-sponsor {
@@ -89,7 +93,7 @@ p {
 }
 
 .bronze-sponsor {
-	max-width: 100px;
+	max-width: 90px;
 }
 
 .vertical-center {
@@ -107,7 +111,12 @@ p {
 }
 
 #ef {
-	padding-top: 10px;
+	padding-top: 20px;
+	max-width: 70px;
+}
+
+#titansoft {
+	max-width: 120px;
 }
 
 @media (max-width: 767px) {
