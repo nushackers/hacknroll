@@ -66,8 +66,8 @@ p {
 }
 
 #about, #event-details, #in-kind, #gallery {
-	/*	background-color: #F2F2F2;*/
-	background-color: #FAFAFA;
+		background-color: #F2F2F2;
+/*	background-color: #FAFAFA;*/
 }
 
 .navbar {
