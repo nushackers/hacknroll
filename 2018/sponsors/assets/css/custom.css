@@ -66,8 +66,8 @@ p {
 }
 
 #about, #event-details, #in-kind, #gallery {
-		background-color: #F2F2F2;
-/*	background-color: #FAFAFA;*/
+	background-color: #F2F2F2;
+	/*	background-color: #FAFAFA;*/
 }
 
 .navbar {
@@ -123,9 +123,6 @@ p {
 	#ef {
 		padding-top: 40px;
 	}
-}
-
-@media (max-width: 767px) {
 	.platinum-sponsor {
 		min-width: 300px !important;
 	}
@@ -143,6 +140,10 @@ p {
 @media (min-width: 767px) {
 	#palantir {
 		padding-top: 30px;
+	}
+
+	#stripe {
+		margin-top: 25px;
 	}
 }
 
