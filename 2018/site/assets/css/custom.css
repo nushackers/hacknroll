@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Muli:300,400');
+
+.custom-navbar {
+	font-weight: 400 !important;
+	font-family: "Montserrat", "Muli", sans-serif !important;
+	background-color: #FAFAFA !important;
+	opacity: 0.8;
+}
+
+.navbar-collapse ul li a {
+	font-weight: 400;
+	font-family: "Montserrat", "Muli", sans-serif !important;
+	color: #1D62F0 !important;
+}
+
+.navbar-collapse ul li a:hover {
+	background-color: aquamarine !important;
+}
+
+navbar-brand:hover {
+	background-color: transparent !important;
+}
+
+.navbar-font {
+	font-weight: 400;
+	font-family: "Montserrat", "Muli", sans-serif !important;
+	color: #1D62F0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Montserrat, sans-serif;
+}
+
+body, p {
+	font-family: Muli, sans-serif;
+	/*	font-weight: 300;*/
+	font-weight: 400;
+}
+
+p {
+	font-size: 17px;
+}
+
+.custom-body {
+	font-family: Muli, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 170%;
+}
+
+.custom-hr {
+	width: 10%;
+	border-width: 2px;
+	border-color: #333333;
+}
+
+#title {
+	font-size: 72px;
+}
+
+#subtitle {
+	/*	color: #fd5c63;*/
+	color: #1D62F0;
+}
+
+/* Various Sections */
+
+#particles-js {
+}
+
+#prizes, #workshops, #past {
+	background-color: #FFFFFF;
+}
+
+#about, #timeline, #sponsors, #contact {
+	background-color: #F2F2F2;
+	/*	background-color: #FAFAFA;*/
+}
+
+.navbar {
+	font-family: "Montserrat";
+	z-index: 100;
+	background-color: navy;
+}
+
+.about-images {
+	width: 70%;
+}
+
+.platinum-sponsor {
+	/*	max-width: 600px;*/
+}
+
+.gold-sponsor {
+	max-width: 300px;
+}
+
+.silver-sponsor {
+	max-width: 150px;
+}
+
+.bronze-sponsor {
+	max-width: 90px;
+}
+
+.vertical-center {
+	position: relative;
+	top: 50%;
+	transform: translateY(50%);
+}
+
+.platinum, .gold, .silver, .bronze {
+	padding: 20px;
+}
+
+.platinum-sponsor, .gold-sponsor, .silver-sponsor, .bronze-sponsor {
+	padding-top: 20px;
+}
+
+#ef {
+	padding-top: 20px;
+	max-width: 70px;
+}
+
+#titansoft {
+	max-width: 120px;
+}
+
+@media (max-width: 767px) {
+	#ef {
+		padding-top: 40px;
+	}
+	.platinum-sponsor {
+		min-width: 300px !important;
+	}
+	.gold-sponsor {
+		max-width: 200px !important;
+	}
+	.silver-sponsor {
+		max-width: 150px;
+	}
+	.bronze-sponsor {
+		max-width: 80px;
+	}
+}
+
+@media (min-width: 767px) {
+	#palantir {
+		padding-top: 30px;
+	}
+
+	#stripe {
+		margin-top: 25px;
+	}
+}
+
+#event-details p, #about p {
+	font-size: 20px;
+}
+
+.custom-btn {
+	display: inline-block;
+	width: 200px;
+	padding: 15px;
+	margin: 5px;
+	font-size: 16px;
+	color: #ffffff;
+	font-family: "Montserrat", sans-serif;
+	background-color: transparent;
+	font-weight: 300;
+	border: 2px solid #fff;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+}
+.custom-btn:hover,
+.custom-btn:active {
+	background-color: rgba(206, 93, 93, 0.7);
+	border-color: #fff;
+	color: #fff;
+	transition: color 0.3s ease-in,
+		background-color 0.3s ease-in,
+		border-color 0.3s ease-in;
+}
+
+/* white-based custom btn */
+.custom-btn2 {
+	display: inline-block;
+	width: 200px;
+	padding: 15px;
+	color: navy;
+	font-family: "Montserrat", Lato, Roboto, sans-serif;
+	font-weight: 400;
+	background-color: transparent;
+	border: 3px solid black;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	<!--transition: color 0.3s ease-out,
+		background-color 0.3s ease-out,
+		border-color 0.3s ease-out;-->
+}
+.custom-btn2:hover,
+.custom-btn2:active {
+	background-color: rgba(226, 150, 93, 0.7);
+	border-color: #000;
+	color: #fff;
+	transition: color 0.3s ease-in,
+		background-color 0.3s ease-in,
+		border-color 0.3s ease-in;
+}
+
+.section-images {
+	max-width: 250px;
+}
+
+th {
+	font-family: "Montserrat";
+	font-size: 17px !important;
+}
+
+.fa-chevron-right, .fa-chevron-left {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	z-index: 5;
+}
+
+.carousel-caption p {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.past-img {
+	height: 200px;
+	border-radius: 10px;
+}
