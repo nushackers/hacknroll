@@ -239,3 +239,7 @@ th {
 .custom-subtitle {
 	color: #D75452;
 }
+
+#myCarousel {
+	border-radius: 10px;
+}
