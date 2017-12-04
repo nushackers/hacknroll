@@ -5,6 +5,7 @@
 	font-family: "Montserrat", "Muli", sans-serif !important;
 	background-color: #FAFAFA !important;
 	opacity: 0.8;
+	font-size: 16px;
 }
 
 .navbar-collapse ul li a {
@@ -38,13 +39,13 @@ body, p {
 }
 
 p {
-	font-size: 17px;
+	font-size: 18px;
 }
 
 .custom-body {
 	font-family: Muli, sans-serif;
 	font-weight: 400;
-	font-size: 17px;
+	font-size: 18px;
 	line-height: 170%;
 }
 
