@@ -69,12 +69,12 @@ p {
 #particles-js {
 }
 
-#prizes, #workshops, #sponsors, #contact {
-	background-color: #FFFFFF;
+#about, #prizes, #workshops, #sponsors, #contact {
+	background-color: #F2F2F2;
 }
 
-#about, #timeline, #past {
-	background-color: #F2F2F2;
+#timeline, #past {
+	background-color: #FFFFFF;
 	/*	background-color: #FAFAFA;*/
 }
 
