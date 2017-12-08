@@ -244,3 +244,8 @@ th {
 #hackers-link {
 	color: white;
 }
+
+table {
+	font-size: 20px;
+	font-family: Muli, sans-serif !important;
+}
