@@ -62,12 +62,13 @@ p {
 }
 
 #prev-sponsors, #sponsorship, #prizes, #contact-us {
+	
 	background-color: #FFFFFF;
 }
 
 #about, #event-details, #in-kind, #gallery {
-	/*	background-color: #F2F2F2;*/
-	background-color: #FAFAFA;
+	background-color: #F2F2F2;
+	/*	background-color: #FAFAFA;*/
 }
 
 .navbar {
@@ -123,9 +124,6 @@ p {
 	#ef {
 		padding-top: 40px;
 	}
-}
-
-@media (max-width: 767px) {
 	.platinum-sponsor {
 		min-width: 300px !important;
 	}
@@ -143,6 +141,10 @@ p {
 @media (min-width: 767px) {
 	#palantir {
 		padding-top: 30px;
+	}
+
+	#stripe {
+		margin-top: 25px;
 	}
 }
 
@@ -221,4 +223,23 @@ th {
 .carousel-caption p {
 	font-weight: 400;
 	font-size: 20px;
+}
+
+.overlay:after {
+    display: block;
+    content: "Sponsored";
+    font-size: 3em;
+    position: absolute;
+    top: 200px;
+    left: 93%;
+    -webkit-transform: translateX(-3em) rotate(70deg);
+    transform: translateX(-3em) rotate(70deg);
+    border: 5px solid;
+    padding: 10px;
+    border-radius: 15px;
+    color: #FFA500;
+}
+
+.grey {
+	color: darkgray !important;
 }
