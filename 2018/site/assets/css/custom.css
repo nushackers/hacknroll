@@ -254,3 +254,7 @@ table {
 	font-size: 20px;
 	font-family: Muli, sans-serif !important;
 }
+
+#about .col-sm-6 {
+	margin-top: 25px;
+}
