@@ -74,11 +74,11 @@ p {
 #particles-js {
 }
 
-#about, #prizes, #workshops, #sponsors, #contact {
+#about, #prizes, #workshops, #past {
 	background-color: #F2F2F2;
 }
 
-#timeline, #past {
+#timeline, #contact, #sponsors {
 	background-color: #FFFFFF;
 	/*	background-color: #FAFAFA;*/
 }
