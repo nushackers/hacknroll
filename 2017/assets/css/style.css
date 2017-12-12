@@ -1,0 +1,149 @@
+#logo {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.logo {
+    position: relative;
+}
+
+#logo {
+    position: relative;
+    z-index: 2;
+}
+
+#logo-text {
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    margin:0 auto;
+    z-index: 1;
+}
+
+#nav ul li a.button {
+    min-width: 5em;
+}
+
+#about p {
+    text-align: left;
+    color: #939393;
+}
+
+#prizes h2, #prizes h3, #prizes h4, #prizes h5 {
+    text-align: center;
+}
+
+#prizes {
+    text-align: left;
+}
+
+#prizes .subheader {
+    margin-top: 0.5em;
+}
+
+#prizes h3 {
+    font-size: 1.8em;
+}
+
+#prizes footnote {
+    font-size: 0.8em;
+}
+
+#prizes p, #prizes footnote {
+    color: #939393;
+}
+
+#timeline td {
+    text-align: left;
+    vertical-align: middle
+}
+
+#past .section-content {
+    text-align:left;
+}
+
+#nav ul li a.button:hover {
+    background-color: #9acff2;
+}
+
+#sponsors a {
+    border-bottom: none;
+}
+
+.sponsor-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1em;
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+}
+
+.sponsors-list-huge, .sponsors-list-big, .sponsors-list-medium, .sponsors-list-small {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.sponsors-list-huge img {
+    max-width: 100%;
+    max-height: 170px;
+}
+
+.sponsors-list-big li {
+  max-width: 75%;
+  vertical-align: middle;
+}
+
+@media (min-width: 700px) {
+    .sponsors-list-big .palantir-logo {
+        max-width: 75%;
+    }
+}
+
+.sponsors-list-big img {
+    max-width: 100%;
+    max-height: 105px;
+    padding-left: 10%;
+}
+.sponsors-list-medium img {
+    max-width: 100%;
+    height: 70px;
+}
+
+.sponsors-list-small img {
+    max-width: 100%;
+    height: 50px;
+}
+
+
+.sponsors-list-huge > li, .sponsors-list-big > li, .sponsors-list-medium > li, .sponsors-list-small > li {
+    display: inline-block;
+
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+
+    opacity: 0.6;
+}
+
+.sponsors-list-huge > li:hover, .sponsors-list-big > li:hover, .sponsors-list-medium > li:hover, .sponsors-list-small > li:hover {
+
+    opacity: 1;
+}
+
+.gallerytext {
+    text-align:right;
+}
+
+.gallerytext a {
+    font-size: 0.8em;
+}
