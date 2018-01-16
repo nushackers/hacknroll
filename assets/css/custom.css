@@ -118,7 +118,14 @@ p {
 #janestreet {
 	position: relative;
 	top: 50%;
-	transform: translateY(40%);
+	transform: translateY(70%);
+}
+
+#sginnovate {
+	position: relative;
+	top: 50%;
+	transform: translateY(32%);
+	width: 50%;
 }
 
 .platinum, .gold, .silver, .bronze {
