@@ -46,6 +46,10 @@ p {
 	font-size: 18px;
 }
 
+.prizes-details {
+	font-size: 10px !important;
+}
+
 #logo {
 	max-height: 300px;
 	margin: 0 auto;
