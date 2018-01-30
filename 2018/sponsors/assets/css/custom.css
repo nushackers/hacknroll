@@ -62,6 +62,7 @@ p {
 }
 
 #prev-sponsors, #sponsorship, #prizes, #contact-us {
+	
 	background-color: #FFFFFF;
 }
 
@@ -222,4 +223,23 @@ th {
 .carousel-caption p {
 	font-weight: 400;
 	font-size: 20px;
+}
+
+.overlay:after {
+    display: block;
+    content: "Sponsored";
+    font-size: 3em;
+    position: absolute;
+    top: 200px;
+    left: 93%;
+    -webkit-transform: translateX(-3em) rotate(70deg);
+    transform: translateX(-3em) rotate(70deg);
+    border: 5px solid;
+    padding: 10px;
+    border-radius: 15px;
+    color: #FFA500;
+}
+
+.grey {
+	color: darkgray !important;
 }
